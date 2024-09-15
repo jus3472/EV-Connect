@@ -58,7 +58,7 @@ Steps to Set Up Firebase:
 - Enter your app's **Bundle ID** (e.g., 'com.yourname.EV-Connect') which is found in "Signing and Capabilites" in the '.xcodeproj' file, and register the app.
 - Download the generated 'GoogleService-Info.plist' file.
 - Place the 'GoogleService-Info.plist' file in the **Xcode project folder** (at the same level as 'Assets.xcassets', etc). Without this file, the app will not build or connect to Firebase services properly.
-- In Xcode, with your app project open, navigate to **File > Add Packages** and enter the provided Firebase iOS SDK repository URL. Select the latest SDK version. Add all of the Firebase libraries (**Note: You may not need all libraries but adding them won't affect performance.**).
+- In Xcode, with your app project open, navigate to **File > Add Packages** and enter the provided Firebase iOS SDK repository URL. Select the latest SDK version. Add all of the Firebase libraries (**Note: You may not need all libraries but adding them won't affect performance**).
 
 5. To build and run the app, select a simulator or connected iOS device and press:
 
