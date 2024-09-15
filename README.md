@@ -47,7 +47,20 @@ cd EV-Connect
 open EV-Connect.xcodeproj
 ```
 
-4. To build and run the app, select a simulator or connected iOS device and press:
+3. Set Up Firebase:
+
+This project uses Firebase for authentication and other services. To run the app locally, you need to set up your own Firebase project and obtain the necessary configuration file (GoogleService-Info.plist).
+
+Steps to Set Up Firebase:
+1. Go to the Firebase Console.
+2. Create a new Firebase project.
+3. In the Firebase Console, navigate to Project Settings and under the Your apps section, add an iOS app.
+4. Enter your app's Bundle ID (e.g., com.yourname.EV-Connect), and register the app.
+5. Download the generated GoogleService-Info.plist file.
+6. Place the GoogleService-Info.plist file in the Xcode project folder (at the same level as Assets.xcassets, etc).
+- Without this file, the app will not build or connect to Firebase services properly.
+
+5. To build and run the app, select a simulator or connected iOS device and press:
 
 ```sh
 Cmd + R
