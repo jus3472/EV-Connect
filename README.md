@@ -6,7 +6,7 @@
   <video src="https://github.com/user-attachments/assets/53881228-d2f5-4920-981d-80b903971fe6" />
 </div>
 
-## Technologies
+## 🛠️ Technologies
 
 - iOS 17 / Xcode 15
 - Swift 5
@@ -14,7 +14,7 @@
 - MapKit
 - MVVM
 
-## Features
+## ✨ Features
 
 - Charging Car UI
 - Music Player UI
@@ -51,7 +51,6 @@ open EV-Connect.xcodeproj
 
 This project uses Firebase for authentication and other services. To run the app locally, you need to set up your own Firebase project and obtain the necessary configuration file ('GoogleService-Info.plist').
 
-Steps to Set Up Firebase:
 - Go to the Firebase Console.
 - Create a new Firebase project.
 - In the Firebase Console, add an iOS app.
