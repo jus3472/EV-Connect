@@ -3,7 +3,7 @@
 ## 📱 Demo
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/2a3ee86e-f7a0-4db1-ab24-052baac18678" />
+  <video src="https://github.com/user-attachments/assets/53881228-d2f5-4920-981d-80b903971fe6" />
 </div>
 
 ## Technologies
