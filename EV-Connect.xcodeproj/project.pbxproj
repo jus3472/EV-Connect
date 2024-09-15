@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B2ED35D2C95674800866C79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B2ED35C2C95674800866C79 /* GoogleService-Info.plist */; };
+		6B2ED3602C95683800866C79 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2ED35F2C95683800866C79 /* FirebaseAuth */; };
+		6B2ED3622C95683800866C79 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6B2ED3612C95683800866C79 /* FirebaseFirestore */; };
+		6B2ED3652C9569DB00866C79 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ED3642C9569DB00866C79 /* SignUpView.swift */; };
+		6B2ED3672C9569F600866C79 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ED3662C9569F600866C79 /* SignInView.swift */; };
+		6B2ED3692C956A0E00866C79 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ED3682C956A0E00866C79 /* AuthViewModel.swift */; };
+		6B2ED36B2C956A4700866C79 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ED36A2C956A4700866C79 /* UserModel.swift */; };
+		6B2ED36D2C956A5A00866C79 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ED36C2C956A5A00866C79 /* UserViewModel.swift */; };
+		6B2ED36F2C956FF400866C79 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2ED36E2C956FF400866C79 /* AuthView.swift */; };
+		6B3E2F532C9616F2008E1A8A /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E2F522C9616F2008E1A8A /* ForgotPasswordView.swift */; };
+		6B3F826E2C94E2A0001C4D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3F826D2C94E2A0001C4D55 /* Assets.xcassets */; };
+		6BB38FED2C94DAC400EA8634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB38FEC2C94DAC400EA8634 /* Preview Assets.xcassets */; };
+		6BB38FF92C94DD2000EA8634 /* EV-ConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB38FF82C94DD2000EA8634 /* EV-ConnectApp.swift */; };
+		6BB38FFB2C94DD6600EA8634 /* ActionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB38FFA2C94DD6600EA8634 /* ActionItem.swift */; };
+		6BB38FFD2C94DD7400EA8634 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB38FFC2C94DD7400EA8634 /* Location.swift */; };
+		6BB38FFF2C94DD9C00EA8634 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB38FFE2C94DD9C00EA8634 /* ActionButton.swift */; };
+		6BB390012C94DDA500EA8634 /* ActionNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390002C94DDA500EA8634 /* ActionNotification.swift */; };
+		6BB390032C94DDB500EA8634 /* CarLockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390022C94DDB500EA8634 /* CarLockButton.swift */; };
+		6BB390052C94DDBF00EA8634 /* CarPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390042C94DDBF00EA8634 /* CarPin.swift */; };
+		6BB390072C94DDC700EA8634 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390062C94DDC700EA8634 /* CustomDivider.swift */; };
+		6BB390092C94DDCE00EA8634 /* FullButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390082C94DDCE00EA8634 /* FullButton.swift */; };
+		6BB3900B2C94DDD500EA8634 /* GeneralButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3900A2C94DDD500EA8634 /* GeneralButton.swift */; };
+		6BB3900D2C94DDDC00EA8634 /* ReorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3900C2C94DDDC00EA8634 /* ReorderButton.swift */; };
+		6BB3900F2C94DDE900EA8634 /* SettingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3900E2C94DDE900EA8634 /* SettingCard.swift */; };
+		6BB390112C94DDF400EA8634 /* VoiceCommandButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390102C94DDF400EA8634 /* VoiceCommandButton.swift */; };
+		6BB390132C94DDFB00EA8634 /* VoiceCommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390122C94DDFB00EA8634 /* VoiceCommandView.swift */; };
+		6BB390162C94DE3700EA8634 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390142C94DE3700EA8634 /* ContentView.swift */; };
+		6BB390192C94DE4800EA8634 /* ChargingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390172C94DE4800EA8634 /* ChargingView.swift */; };
+		6BB3901C2C94DE4E00EA8634 /* MediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3901A2C94DE4E00EA8634 /* MediaPlayerView.swift */; };
+		6BB390202C94DE6100EA8634 /* LocationPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3901D2C94DE6100EA8634 /* LocationPanel.swift */; };
+		6BB390212C94DE6100EA8634 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3901E2C94DE6100EA8634 /* LocationView.swift */; };
+		6BB390332C94DE7900EA8634 /* CarControlActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3902F2C94DE7900EA8634 /* CarControlActions.swift */; };
+		6BB390342C94DE7900EA8634 /* CarControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390302C94DE7900EA8634 /* CarControlsView.swift */; };
+		6BB390352C94DE7900EA8634 /* ValetModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390312C94DE7900EA8634 /* ValetModeView.swift */; };
+		6BB390382C94DE8200EA8634 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390362C94DE8200EA8634 /* SplashView.swift */; };
+		6BB390402C94DE9C00EA8634 /* AllSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390392C94DE9C00EA8634 /* AllSettings.swift */; };
+		6BB390412C94DE9C00EA8634 /* CarSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3903A2C94DE9C00EA8634 /* CarSection.swift */; };
+		6BB390422C94DE9C00EA8634 /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3903B2C94DE9C00EA8634 /* CategoryHeader.swift */; };
+		6BB390432C94DE9C00EA8634 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3903C2C94DE9C00EA8634 /* CategoryView.swift */; };
+		6BB390442C94DE9C00EA8634 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3903D2C94DE9C00EA8634 /* HomeHeader.swift */; };
+		6BB390452C94DE9C00EA8634 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB3903E2C94DE9C00EA8634 /* HomeView.swift */; };
+		6BB390472C94DEC700EA8634 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB390462C94DEC700EA8634 /* View+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B2ED35C2C95674800866C79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6B2ED3642C9569DB00866C79 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6B2ED3662C9569F600866C79 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		6B2ED3682C956A0E00866C79 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		6B2ED36A2C956A4700866C79 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6B2ED36C2C956A5A00866C79 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		6B2ED36E2C956FF400866C79 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		6B3E2F522C9616F2008E1A8A /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		6B3F826D2C94E2A0001C4D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB38FE22C94DAC300EA8634 /* EV-Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EV-Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB38FEC2C94DAC400EA8634 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BB38FF82C94DD2000EA8634 /* EV-ConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EV-ConnectApp.swift"; sourceTree = "<group>"; };
+		6BB38FFA2C94DD6600EA8634 /* ActionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionItem.swift; sourceTree = "<group>"; };
+		6BB38FFC2C94DD7400EA8634 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6BB38FFE2C94DD9C00EA8634 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		6BB390002C94DDA500EA8634 /* ActionNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionNotification.swift; sourceTree = "<group>"; };
+		6BB390022C94DDB500EA8634 /* CarLockButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarLockButton.swift; sourceTree = "<group>"; };
+		6BB390042C94DDBF00EA8634 /* CarPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPin.swift; sourceTree = "<group>"; };
+		6BB390062C94DDC700EA8634 /* CustomDivider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		6BB390082C94DDCE00EA8634 /* FullButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullButton.swift; sourceTree = "<group>"; };
+		6BB3900A2C94DDD500EA8634 /* GeneralButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralButton.swift; sourceTree = "<group>"; };
+		6BB3900C2C94DDDC00EA8634 /* ReorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReorderButton.swift; sourceTree = "<group>"; };
+		6BB3900E2C94DDE900EA8634 /* SettingCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCard.swift; sourceTree = "<group>"; };
+		6BB390102C94DDF400EA8634 /* VoiceCommandButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceCommandButton.swift; sourceTree = "<group>"; };
+		6BB390122C94DDFB00EA8634 /* VoiceCommandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceCommandView.swift; sourceTree = "<group>"; };
+		6BB390142C94DE3700EA8634 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6BB390172C94DE4800EA8634 /* ChargingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargingView.swift; sourceTree = "<group>"; };
+		6BB3901A2C94DE4E00EA8634 /* MediaPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPlayerView.swift; sourceTree = "<group>"; };
+		6BB3901D2C94DE6100EA8634 /* LocationPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPanel.swift; sourceTree = "<group>"; };
+		6BB3901E2C94DE6100EA8634 /* LocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		6BB3902F2C94DE7900EA8634 /* CarControlActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarControlActions.swift; sourceTree = "<group>"; };
+		6BB390302C94DE7900EA8634 /* CarControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarControlsView.swift; sourceTree = "<group>"; };
+		6BB390312C94DE7900EA8634 /* ValetModeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValetModeView.swift; sourceTree = "<group>"; };
+		6BB390362C94DE8200EA8634 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		6BB390392C94DE9C00EA8634 /* AllSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllSettings.swift; sourceTree = "<group>"; };
+		6BB3903A2C94DE9C00EA8634 /* CarSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarSection.swift; sourceTree = "<group>"; };
+		6BB3903B2C94DE9C00EA8634 /* CategoryHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
+		6BB3903C2C94DE9C00EA8634 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		6BB3903D2C94DE9C00EA8634 /* HomeHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		6BB3903E2C94DE9C00EA8634 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6BB390462C94DEC700EA8634 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB38FDF2C94DAC300EA8634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2ED3602C95683800866C79 /* FirebaseAuth in Frameworks */,
+				6B2ED3622C95683800866C79 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B2ED3632C9569BB00866C79 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6B2ED3642C9569DB00866C79 /* SignUpView.swift */,
+				6B2ED3662C9569F600866C79 /* SignInView.swift */,
+				6B3E2F522C9616F2008E1A8A /* ForgotPasswordView.swift */,
+				6B2ED36E2C956FF400866C79 /* AuthView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6BB38FD92C94DAC300EA8634 = {
+			isa = PBXGroup;
+			children = (
+				6BB38FE42C94DAC300EA8634 /* EV-Connect */,
+				6BB38FE32C94DAC300EA8634 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB38FE32C94DAC300EA8634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB38FE22C94DAC300EA8634 /* EV-Connect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB38FE42C94DAC300EA8634 /* EV-Connect */ = {
+			isa = PBXGroup;
+			children = (
+				6BB38FF32C94DCB700EA8634 /* App */,
+				6BB38FF42C94DCBB00EA8634 /* Model */,
+				6BB38FF52C94DCC000EA8634 /* Components */,
+				6BB38FF62C94DCC700EA8634 /* View */,
+				6BB38FF72C94DCD300EA8634 /* Extensions */,
+				6B2ED35C2C95674800866C79 /* GoogleService-Info.plist */,
+				6B3F826D2C94E2A0001C4D55 /* Assets.xcassets */,
+				6BB38FEB2C94DAC400EA8634 /* Preview Content */,
+			);
+			path = "EV-Connect";
+			sourceTree = "<group>";
+		};
+		6BB38FEB2C94DAC400EA8634 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6BB38FEC2C94DAC400EA8634 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BB38FF32C94DCB700EA8634 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6BB38FF82C94DD2000EA8634 /* EV-ConnectApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6BB38FF42C94DCBB00EA8634 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BB38FFA2C94DD6600EA8634 /* ActionItem.swift */,
+				6BB38FFC2C94DD7400EA8634 /* Location.swift */,
+				6B2ED3682C956A0E00866C79 /* AuthViewModel.swift */,
+				6B2ED36A2C956A4700866C79 /* UserModel.swift */,
+				6B2ED36C2C956A5A00866C79 /* UserViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BB38FF52C94DCC000EA8634 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6BB38FFE2C94DD9C00EA8634 /* ActionButton.swift */,
+				6BB390002C94DDA500EA8634 /* ActionNotification.swift */,
+				6BB390022C94DDB500EA8634 /* CarLockButton.swift */,
+				6BB390042C94DDBF00EA8634 /* CarPin.swift */,
+				6BB390062C94DDC700EA8634 /* CustomDivider.swift */,
+				6BB390082C94DDCE00EA8634 /* FullButton.swift */,
+				6BB3900A2C94DDD500EA8634 /* GeneralButton.swift */,
+				6BB3900C2C94DDDC00EA8634 /* ReorderButton.swift */,
+				6BB3900E2C94DDE900EA8634 /* SettingCard.swift */,
+				6BB390102C94DDF400EA8634 /* VoiceCommandButton.swift */,
+				6BB390122C94DDFB00EA8634 /* VoiceCommandView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6BB38FF62C94DCC700EA8634 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BB390152C94DE3700EA8634 /* Root */,
+				6B2ED3632C9569BB00866C79 /* Onboarding */,
+				6BB390182C94DE4800EA8634 /* Charging */,
+				6BB3901B2C94DE4E00EA8634 /* MediaPlayer */,
+				6BB3901F2C94DE6100EA8634 /* Location */,
+				6BB3903F2C94DE9C00EA8634 /* Home */,
+				6BB390322C94DE7900EA8634 /* CarControl */,
+				6BB390372C94DE8200EA8634 /* Splash */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BB38FF72C94DCD300EA8634 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BB390462C94DEC700EA8634 /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6BB390152C94DE3700EA8634 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				6BB390142C94DE3700EA8634 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		6BB390182C94DE4800EA8634 /* Charging */ = {
+			isa = PBXGroup;
+			children = (
+				6BB390172C94DE4800EA8634 /* ChargingView.swift */,
+			);
+			path = Charging;
+			sourceTree = "<group>";
+		};
+		6BB3901B2C94DE4E00EA8634 /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6BB3901A2C94DE4E00EA8634 /* MediaPlayerView.swift */,
+			);
+			path = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		6BB3901F2C94DE6100EA8634 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				6BB3901D2C94DE6100EA8634 /* LocationPanel.swift */,
+				6BB3901E2C94DE6100EA8634 /* LocationView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		6BB390322C94DE7900EA8634 /* CarControl */ = {
+			isa = PBXGroup;
+			children = (
+				6BB3902F2C94DE7900EA8634 /* CarControlActions.swift */,
+				6BB390302C94DE7900EA8634 /* CarControlsView.swift */,
+				6BB390312C94DE7900EA8634 /* ValetModeView.swift */,
+			);
+			path = CarControl;
+			sourceTree = "<group>";
+		};
+		6BB390372C94DE8200EA8634 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6BB390362C94DE8200EA8634 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6BB3903F2C94DE9C00EA8634 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6BB390392C94DE9C00EA8634 /* AllSettings.swift */,
+				6BB3903A2C94DE9C00EA8634 /* CarSection.swift */,
+				6BB3903B2C94DE9C00EA8634 /* CategoryHeader.swift */,
+				6BB3903C2C94DE9C00EA8634 /* CategoryView.swift */,
+				6BB3903D2C94DE9C00EA8634 /* HomeHeader.swift */,
+				6BB3903E2C94DE9C00EA8634 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB38FE12C94DAC300EA8634 /* EV-Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB38FF02C94DAC400EA8634 /* Build configuration list for PBXNativeTarget "EV-Connect" */;
+			buildPhases = (
+				6BB38FDE2C94DAC300EA8634 /* Sources */,
+				6BB38FDF2C94DAC300EA8634 /* Frameworks */,
+				6BB38FE02C94DAC300EA8634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EV-Connect";
+			packageProductDependencies = (
+				6B2ED35F2C95683800866C79 /* FirebaseAuth */,
+				6B2ED3612C95683800866C79 /* FirebaseFirestore */,
+			);
+			productName = "EV-Connect";
+			productReference = 6BB38FE22C94DAC300EA8634 /* EV-Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB38FDA2C94DAC300EA8634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6BB38FE12C94DAC300EA8634 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = 6BB38FDD2C94DAC300EA8634 /* Build configuration list for PBXProject "EV-Connect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB38FD92C94DAC300EA8634;
+			packageReferences = (
+				6B2ED35E2C95683800866C79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 6BB38FE32C94DAC300EA8634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB38FE12C94DAC300EA8634 /* EV-Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB38FE02C94DAC300EA8634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB38FED2C94DAC400EA8634 /* Preview Assets.xcassets in Resources */,
+				6B3F826E2C94E2A0001C4D55 /* Assets.xcassets in Resources */,
+				6B2ED35D2C95674800866C79 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB38FDE2C94DAC300EA8634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB390072C94DDC700EA8634 /* CustomDivider.swift in Sources */,
+				6BB390132C94DDFB00EA8634 /* VoiceCommandView.swift in Sources */,
+				6BB3900D2C94DDDC00EA8634 /* ReorderButton.swift in Sources */,
+				6BB390332C94DE7900EA8634 /* CarControlActions.swift in Sources */,
+				6BB390432C94DE9C00EA8634 /* CategoryView.swift in Sources */,
+				6BB390112C94DDF400EA8634 /* VoiceCommandButton.swift in Sources */,
+				6BB390352C94DE7900EA8634 /* ValetModeView.swift in Sources */,
+				6BB390452C94DE9C00EA8634 /* HomeView.swift in Sources */,
+				6B2ED36B2C956A4700866C79 /* UserModel.swift in Sources */,
+				6BB38FFB2C94DD6600EA8634 /* ActionItem.swift in Sources */,
+				6BB390442C94DE9C00EA8634 /* HomeHeader.swift in Sources */,
+				6BB38FFD2C94DD7400EA8634 /* Location.swift in Sources */,
+				6BB3900F2C94DDE900EA8634 /* SettingCard.swift in Sources */,
+				6BB390092C94DDCE00EA8634 /* FullButton.swift in Sources */,
+				6BB3901C2C94DE4E00EA8634 /* MediaPlayerView.swift in Sources */,
+				6B2ED3672C9569F600866C79 /* SignInView.swift in Sources */,
+				6BB390412C94DE9C00EA8634 /* CarSection.swift in Sources */,
+				6BB390342C94DE7900EA8634 /* CarControlsView.swift in Sources */,
+				6B2ED3652C9569DB00866C79 /* SignUpView.swift in Sources */,
+				6BB390012C94DDA500EA8634 /* ActionNotification.swift in Sources */,
+				6BB390032C94DDB500EA8634 /* CarLockButton.swift in Sources */,
+				6BB3900B2C94DDD500EA8634 /* GeneralButton.swift in Sources */,
+				6BB390402C94DE9C00EA8634 /* AllSettings.swift in Sources */,
+				6BB390192C94DE4800EA8634 /* ChargingView.swift in Sources */,
+				6B3E2F532C9616F2008E1A8A /* ForgotPasswordView.swift in Sources */,
+				6BB390422C94DE9C00EA8634 /* CategoryHeader.swift in Sources */,
+				6BB390162C94DE3700EA8634 /* ContentView.swift in Sources */,
+				6B2ED36F2C956FF400866C79 /* AuthView.swift in Sources */,
+				6BB390052C94DDBF00EA8634 /* CarPin.swift in Sources */,
+				6BB390202C94DE6100EA8634 /* LocationPanel.swift in Sources */,
+				6BB38FF92C94DD2000EA8634 /* EV-ConnectApp.swift in Sources */,
+				6BB390212C94DE6100EA8634 /* LocationView.swift in Sources */,
+				6B2ED3692C956A0E00866C79 /* AuthViewModel.swift in Sources */,
+				6BB390382C94DE8200EA8634 /* SplashView.swift in Sources */,
+				6BB390472C94DEC700EA8634 /* View+Extensions.swift in Sources */,
+				6B2ED36D2C956A5A00866C79 /* UserViewModel.swift in Sources */,
+				6BB38FFF2C94DD9C00EA8634 /* ActionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6BB38FEE2C94DAC400EA8634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BB38FEF2C94DAC400EA8634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB38FF12C94DAC400EA8634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EV-Connect/Preview Content\"";
+				DEVELOPMENT_TEAM = M886TN6JH7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justinjiang.EV-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BB38FF22C94DAC400EA8634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EV-Connect/Preview Content\"";
+				DEVELOPMENT_TEAM = M886TN6JH7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "justinjiang.EV-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB38FDD2C94DAC300EA8634 /* Build configuration list for PBXProject "EV-Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB38FEE2C94DAC400EA8634 /* Debug */,
+				6BB38FEF2C94DAC400EA8634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB38FF02C94DAC400EA8634 /* Build configuration list for PBXNativeTarget "EV-Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB38FF12C94DAC400EA8634 /* Debug */,
+				6BB38FF22C94DAC400EA8634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6B2ED35E2C95683800866C79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6B2ED35F2C95683800866C79 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B2ED35E2C95683800866C79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6B2ED3612C95683800866C79 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6B2ED35E2C95683800866C79 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6BB38FDA2C94DAC300EA8634 /* Project object */;
+}
